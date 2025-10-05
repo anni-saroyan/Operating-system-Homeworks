@@ -1,0 +1,48 @@
+---------------------------------------|
+Task: Working with array and pointers  |
+---------------------------------------|
+
+---------------------------------------------------
+Step 1: Create util.h and include these prototypes
+---------------------------------------------------
+
+// Sum of all elements
+int sum_array(const int *arr, int n);
+
+// Maximum element (returns -9999 if n <= 0)
+int max_array(const int *arr, int n);
+
+// Count how many elements equal 'value'
+int count_occurrences(const int *arr, int n, int value);
+
+---------------------
+Step 2: Create util.c
+---------------------
+ - Implement those three functions
+
+---------------------
+Step 3: Create main.c
+---------------------
+ - Create an array of ints an initialize with some values
+ - Call those three functions and print the result
+
+------------------------
+Step 4: Compile and Link
+------------------------
+ - Create object files for each compilation unit
+ - Create an executable file
+ 
+-----------
+Step 5: Run
+-----------
+ - Run and check the output of your program
+
+--------------------------------
+Step 6: Investigate Object Files
+--------------------------------
+ - Use objdump to disassemble object files and find those three functions and main
+ - Use nm on object files and check function addresses
+ - Use readelf on object files, check the Entry point addresses
+ - Use nm, objdump, and readelf on the final executable and explain the difference between outputs for object files and the final executable
+ - Put your observations into report_2.txt
+

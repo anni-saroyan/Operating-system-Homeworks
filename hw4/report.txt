@@ -1,0 +1,15 @@
+C Compilation Report
+
+Files Created mainc has the main function and calls square math_utilsc has the square function definition math_utilsh has the declaration for square
+
+Compilation Steps compiled each file into object files using gcc -c mainc gcc -c math_utilsc linked them into an executable using gcc maino math_utilso -o square_prog
+
+nm Output Summary maino defines main and references square math_utilso defines square square_prog shows both symbols resolved
+
+objdump Summary object files show partial assembly for each function executable shows full assembly with actual addresses and calls
+
+readelf Summary object files are type REL relocatable executable is type EXEC ready to run object files have sections like text data bss symtab strtab executable has extra sections like interp dynamic got
+
+What I Learned object files are incomplete and need linking linking combines files and resolves symbols tools like nm objdump and readelf help see what’s inside compiled files
+
+GitHub Repo https://github.com/saroyanani18/Operating-systems.git

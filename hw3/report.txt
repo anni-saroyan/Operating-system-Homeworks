@@ -1,0 +1,13 @@
+Processes Homework Report
+
+Assignment 1 I wrote a simple program using fork() to create a child process. The child prints its PID and exits. The parent prints its own PID and doesn’t wait for the child. I used getpid() for both. It shows how both processes run independently. Sometimes the parent finishes first.
+
+Assignment 2 I modified the first program to use wait() so the parent waits for the child. Then I added another child and used waitpid() to wait for a specific one. I printed the exit status using WEXITSTATUS(). This helps understand how to sync processes and get their exit codes.
+
+Assignment 3 I tried out atexit() by registering two functions that print messages when the program ends. They run in reverse order of registration. I tested it by calling exit() and saw the messages. It’s useful for cleanup stuff like freeing memory or closing files.
+
+Assignment 4 I made two child processes with fork(). Each one exits with a different code. The parent uses waitpid() to wait for them and prints their exit status. I also checked if they exited normally using WIFEXITED(). It shows how to handle multiple processes and their results.
+
+Assignment 5 I created a child process and didn’t use wait() in the parent. When I checked with ps and htop, the child became a zombie. Then I fixed it by adding wait() in the parent. This shows how zombies happen and how wait() prevents them.
+
+GitHub Repo https://github.com/saroyanani18/Operating-Sytems-Hws.git
