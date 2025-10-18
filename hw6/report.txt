@@ -1,0 +1,23 @@
+In this hw I learned about data alignment struct padding and pragma pack.
+
+
+
+
+First I made a program with int char double and short and printed their sizes and addresses. I saw that the variables were not one after another in memory. Bigger data types like double were aligned on bigger boundaries. This means the compiler aligns data to make access faster.
+
+
+
+
+Next I made structs with char int and double. When I changed the order of fields the size changed too. Putting bigger types first made the struct smaller. I learned this happens because of padding bytes that fill gaps for alignment.
+
+
+
+
+Then I tried pragma pack. Without it my struct was 24 bytes. With pragma pack(1) it became 13 bytes and with pack(2) it was 14 bytes. This removes or reduces padding but can make access slower.
+
+
+
+
+In the end I understood how alignment and padding affect memory and performance. I also learned that the order of fields and use of pragma pack can change the struct size and speed.
+https://github.com/anni-saroyan/Operating-system-Homeworks
+

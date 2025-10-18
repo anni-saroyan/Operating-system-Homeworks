@@ -422,3 +422,126 @@ nano task4.c
 nano task5.c
 nano task6.c
 nano task7.c
+ls
+cd hw5
+ls
+touch report.txt
+nano report.txt 
+git status
+git push
+git cd 
+ls
+pwd
+cd anis
+cd .
+ls
+cd.
+ls
+cd
+ls
+git status
+git add .
+git add -A
+git commit -m "HW5"
+git push
+git remote -v
+git push -u origin master
+git rm --cached .ssh/id_ed25519
+echo ".ssh/" >> .gitignore
+git add .gitignore
+git commit --amend -m "Add homework"
+git push origin master
+# This completely removes all Git history and configuration
+rm -rf .git
+git status
+git init
+git add .
+git commit -m "Initial commit: Homeworks and classwork"
+git remote add origin https://github.com/anni-saroyan/Operating-system-Homeworks.git
+git push -u origin master
+git remote add origin https://github.com/anni-saroyan/Operating-system-Homeworks.git
+git push -u origin master
+ls
+cd hw5
+ls
+nano report.txt 
+ls
+cd
+ls
+git status
+add .
+commit -m"changed stuff"
+git commit -m"fixe"
+git add.
+git add .
+git commit -m" "
+git commit -m"fixed"
+git push -u origin master
+ls
+mkdir classwork2
+cd classwork2
+touch Point.c
+nano Point.c 
+gcc Point.c -o Point
+./nani Point.c 
+ls
+nano Point.c 
+gcc Point.c -o point
+./point
+ls
+mkdir FileAndDirectoryManipulation
+ls
+cd FileAndDirectoryManipulation/
+cd
+ls
+rm FileAndDirectoryManipulation/
+rmdir FileAndDirectoryManipulation/
+ls
+mkdir workshop
+cd workshop/
+mkdir projects logs notes
+ls
+cd projects/
+touch project1.txt
+cd
+ls
+cd workshop/
+ls
+cd projects/
+cd .
+ls
+cd.
+ls
+cd workshop
+cd
+ls
+cd workshop/
+ls
+cd logs/
+touch activity.log
+ls
+cd
+ls
+cd workshop/
+ls
+cd notes/
+touch ideas.txt
+ls
+mkdir hw6
+cd hw6
+touch alignment.
+rm alignment. 
+touch alignment.c
+ls
+nano alignment.c 
+touch struct_padding.c
+nano struct_padding.c 
+touch pragma.c
+nano pragma.c 
+nano report.txt
+git push 
+git status
+git add .
+git commit -m"HW6'
+git status
+ls
